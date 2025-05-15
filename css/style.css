@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f2f5;
+    padding: 25px;
+  }
+  .parts{
+    background-color: #0ad9f0;
+    padding: 70px;
+    border-radius: 25px;
+  }
+
+  .main-part{
+    background-color: rgb(183, 0, 255);
+    padding: 70px;
+    border-radius: 25px;
+  }
+  .review_box {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  #text {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    resize: vertical;
+    margin-bottom: 10px;
+    
+    background-color: #147bd4;
+    color:black;
+    height: 200px;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-transform: uppercase;
+  }
+  .back_btn {
+    display: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #f80b0b;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100%;
+    text-align: center;
+  }
+
